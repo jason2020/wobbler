@@ -11,12 +11,15 @@ html, body {
 }
 
 #headerContent {
-	background-color: #212121;
 	color: white;
 	height: 10vh;
 	max-height: 10vh;
-	font-size: 1.5em;
+	font-size: 2em;
 	text-align: center;
+}
+
+header {
+	background-color: #212121;
 }
 
 #navContent {
@@ -40,10 +43,12 @@ html, body {
 	color: black;
 	height: 100vh;
 	max-height: 100vh;
-	font-size: 1.5em;
+	font-size: 2.25em;
 	text-indent: 2em;
-	background-color: rgba(255, 255, 255, 0.3);
-	padding-top: 30vh;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-top: 10vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
 }
 
 #titleText {
@@ -52,18 +57,23 @@ html, body {
 
 .sectionHeader {
 	text-align: left;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: bolder;
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.noOpacity {
+	background: none;
 }
 
 #fabricationContentWrapper {
-	background-image: url("assets/background2.png");
+	/*background-image: url("assets/background2.png");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	opacity: 1;
+	opacity: 1;*/
+	background-color: #dcdcdc;
 	padding-left: 10vw;
 	padding-right: 10vw;
 }
@@ -74,32 +84,31 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
 	color: black;
-	height: 40vh;
-	max-height: 40vh;
-	font-size: 1.5em;
+	/*height: 43vh;
+	max-height: 43vh;*/
+	font-size: 2em;
 	margin-top: 1em;
 	text-indent: 2em;
 }
 
 .fabricationStep {
 	text-indent: 2em;
-	font-size: 1.75em;
-	margin-top: 5vh;
+	font-size: 2.5em;
+	margin-top: 6vh;
 }
 
 .carouselContainer {
-	height: 40vh;
-	margin: 0 auto;
+	margin: 2vh auto;
 }
 
-.crankWheelCarousel {
+.imageCarousel {
 	margin: 0 auto;
 	width: 60%;
 }
 
-.crankWheelCarousel img {
+.imageCarousel img {
 	margin: 0 auto;
-	max-height: 30vh;
+	max-height: 40vh;
 	width: 100%;
 }
 
@@ -117,12 +126,11 @@ html, body {
 }
 
 #endProductContentWrapper {
-	background-image: url("assets/background1.JPG");
+	background-image: url("assets/IMG_5240.JPG");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	opacity: 1;
 }
 
 #conclusion {
@@ -130,10 +138,10 @@ html, body {
 	color: black;
 	height: 100vh;
 	max-height: 100vh;
-	font-size: 1.5em;
+	font-size: 2.25em;
 	text-indent: 2em;
-	background-color: rgba(255, 255, 255, 0.3);
-	padding-top: 30vh;
+	padding-top: 5vh;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 footer {
@@ -141,3 +149,17 @@ footer {
 	height: 20vh;
 	max-height: 20vh;
 }
+
+body{font-size: 100% !important;}
+
+
+@media screen and (max-width: 400px) {
+	body{font-size: 70% !important;}
+}
+
+@media screen and (max-width: 500px) {
+	body{font-size: 80% !important;}
+}
+
+
+

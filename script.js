@@ -1,7 +1,6 @@
-console.log("Page load..")
-$(".crankWheelCarousel").slick({
+$(".imageCarousel").slick({
 	lazyLoad: "ondemand",
-	slidesToShow: 3,
+	slidesToShow: 2,
 	slidesToScroll: 1,
 	dots: true,
 	infinite: true,
