@@ -67,15 +67,10 @@ header {
 }
 
 #fabricationContentWrapper {
-	/*background-image: url("assets/background2.png");
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: 1;*/
 	background-color: #dcdcdc;
 	padding-left: 10vw;
 	padding-right: 10vw;
+	padding-bottom: 10vh;
 }
 
 .fabricationContent {
@@ -84,8 +79,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 	color: black;
-	/*height: 43vh;
-	max-height: 43vh;*/
 	font-size: 2em;
 	margin-top: 1em;
 	text-indent: 2em;
@@ -113,10 +106,15 @@ header {
 }
 
 #backToTop {
-	margin: 0 auto;
+	margin: 1vh auto;
 	height: 5vh;
 	padding: 0;
-	float: right;
+	width: 10%;
+	text-align: center;
+}
+
+.buttonWrapper {
+	text-align: center;
 }
 
 #backToTop div {
@@ -136,12 +134,13 @@ header {
 #conclusion {
 	background: none;
 	color: black;
-	height: 100vh;
-	max-height: 100vh;
+	height: 50vh;
+	max-height: 50vh;
 	font-size: 2.25em;
 	text-indent: 2em;
 	padding-top: 5vh;
 	background-color: rgba(255, 255, 255, 0.5);
+	z-index: 20;
 }
 
 footer {
@@ -159,6 +158,23 @@ body{font-size: 100% !important;}
 
 @media screen and (max-width: 500px) {
 	body{font-size: 80% !important;}
+}
+
+.videoContainer {
+	margin: 0 auto;
+	height: 50vh;
+	margin-bottom: 10vh;
+}
+
+.wrapper {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#wobblerVideo {
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+	height: 100%;
 }
 
 
